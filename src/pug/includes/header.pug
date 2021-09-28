@@ -1,52 +1,57 @@
-header 
-    section(class=sec-1)
-        .container
-            nav.navbar.navbar-expand-lg.navbar-light.bg-light.d-flex
+header(class="head-1")
+    .container
+        div.h-main
+            nav.navbar.navbar-expand-lg
                 .container-fluid
                     a.navbar-brand(href="#")
                         img(src="assets/imgs/Vector Smart Object.png", alt="")
                         button.navbar-toggler(type="button", data-bs-toggle="collapse", data-bs-target="#navbarScroll", aria-controls="navbarScroll", aria-expanded="false", aria-label="Toggle navigation")
                             span.navbar-toggler-icon
-                    ul.nav.justify-content-end
+                    ul.nav.justify-content-end.align-items-center
                         li.nav-item
-                            a.nav-link.active(href="#") ABOUT
+                            a.ah-head.nav-link.active(href="#") ABOUT
                         li.nav-item
-                            a.nav-link(href="#") SERVICES
+                            a.ah-head.nav-link(href="#") SERVICES
                         li.nav-item
-                            a.nav-link(href="#") PORTFOLIO
-                        form.d-flex
-                            a(href="#")
-                                i.fas.fa-search
-                            a(href="#") 
-                                i.fas.fa-bars
-            div 
-                h2 
-                    | Lorem ipsum dolor sit amet 
-                p 
-                    | Proin bibendum placerat liberat aporttitor. Donec vestibulum at augue venenatis aliquam Donec dolor elit, lacinia nec purus eget, fringilla fringilla massa 
-                p 
-                    | Phasellus congue metus vel lorem faucibus, eget vulputate elit iaculis.
-            div 
-                .row 
-                    .col-2
-                    .col-2
-                        div
-                            img(src="assets/imgs/Object2.png", alt="") 
-                            a(href="#") 
-                                | Chat
-                    .col-2
-                        div
-                            img(src="assets/imgs/Vector Smart Object3.png", alt="") 
-                            a(href="#") 
-                                | Call 
-                    .col-2
-                         div
-                            img(src="assets/imgs/Vector Smart Object5.png", alt="") 
-                            a(href="#") 
-                                | Email
-                    .col-2
-                        div
-                            img(src="assets/imgs/Vector Smart Object6.png", alt="") 
-                            a(href="#")  
-                                | adress
-                    .col-2
+                            a.ah-head.nav-link(href="#") PORTFOLIO
+                        div.head-icon
+                            form.d-flex.align-items-center
+                                a.head-icon-1(href="#")
+                                    i.fas.fa-search
+                                a.head-icon-2(href="#") 
+                                    i.fas.fa-bars
+        div.text-center.text-light.my-5
+            .row 
+                .col-3
+                .col-6
+                    h2 
+                        | Lorem ipsum dolor sit amet 
+                    p 
+                        | Proin bibendum placerat liberat aporttitor. Donec vestibulum at augue venenatis aliquam Donec dolor elit, lacinia nec purus eget, fringilla fringilla massa 
+                    p 
+                        | Phasellus congue metus vel lorem faucibus, eget vulputate elit iaculis.
+                .col-3
+        div 
+            .row 
+                .col-2
+                .col-2
+                    div.mx-main
+                        img.mx-main-mg(src="assets/imgs/Object2.png", alt="") 
+                        a.mx-main-tx(href="#") 
+                            | Chat
+                .col-2
+                    div.mx-main
+                        img.mx-main-mg(src="assets/imgs/Vector Smart Object3.png", alt="") 
+                        a.mx-main-tx(href="#") 
+                            | Call 
+                .col-2
+                     div.mx-main
+                        img.mx-main-mg(src="assets/imgs/Vector Smart Object5.png", alt="") 
+                        a.mx-main-tx(href="#") 
+                            | Email
+                .col-2
+                    div.mx-main
+                        img.mx-main-mg(src="assets/imgs/Vector Smart Object6.png", alt="") 
+                        a.mx-main-tx(href="#")  
+                            | adress
+                .col-2
